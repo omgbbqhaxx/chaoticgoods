@@ -1,0 +1,133 @@
+html {
+    background:#1a1b20;
+  }
+  body {
+    background:#1a1b20;
+  }
+  .table {
+    background-color:#2b1e23;
+    border-radius: 10px;
+  }
+  .table td  {
+    color:#fff;
+    font-family: 'Nunito Sans';font-size: 18px;
+  }
+
+  .table thead th  {
+    color:#fff;
+    font-family: 'Nunito Sans';font-size: 18px;
+  }
+
+  .titletwo  {
+    color:#fff;
+    font-family: 'Nunito Sans';font-size: 23px;
+  }
+
+  .mycard {
+    background-color: #1a1b20;
+    width: 100%;
+    max-width: 302px;
+    height: auto;
+    border: 1px solid #6966FB;
+    border-radius: 15px;
+    box-shadow: 0 0 4px #6966FB;
+}
+
+.card-deck {
+    white-space: normal;
+    text-align: center; /* Center the cards within the container */
+}
+
+.card {
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+/* Center the last card when it's the only one on the line */
+.card-deck::after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+
+
+  .badge-h6 {
+    font-size: 1rem; /* Adjust the font size as needed */
+  }
+
+  .btnx {
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    position: relative;
+    z-index: 1;
+    border-radius: 5px;
+    background: linear-gradient(to right, #00FFA3, #DC1FFF);
+    cursor: pointer;
+  }
+  .btnx::before {
+    content: "";
+    position: absolute;
+    left: 1px;
+    right: 1px;
+    top: 1px;
+    bottom: 1px;
+    border-radius: 4px;
+    background-color: white;
+    z-index: -1;
+    transition: 200ms
+  }
+  .btnx::after {
+    content: attr(data);
+    font-size: 16px;
+    background: linear-gradient(to left, #00FFA3, #DC1FFF);
+    -webkit-background-clip: text;
+    color: transparent;
+    transition: 200ms
+  }
+  .btnx:hover::before {
+    opacity: 50%;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+  }
+  .btnx:hover::after{
+    color: white;
+  }
+
+
+
+
+   
+
+@keyframes float {
+  0% {
+    box-shadow: 0 5px 5px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px);
+  }
+  50% {
+    box-shadow: 0 1px 1px 0px rgba(0, 0, 0, 0.2);
+    transform: translatey(-10px);
+  }
+  100% {
+    box-shadow: 0 5px 5px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px);
+  }
+}
+
+ 
+
+.avatar {
+  width: 128px;
+  overflow: hidden;
+ 
+
+  animation: float 8s ease-in-out infinite;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
