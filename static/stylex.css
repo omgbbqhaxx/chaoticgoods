@@ -1,11 +1,11 @@
 html {
-    background:#1a1b20;
+    background:#ffffff;
   }
   body {
-    background:#1a1b20;
+    background:#ffffff;
   }
   .table {
-    background-color:#2b1e23;
+    background-color:#ffffff;
     border-radius: 10px;
   }
   .table td  {
@@ -25,7 +25,7 @@ html {
   }
 
   .titletwo  {
-    color:#fff;
+    color:#000000;
     font-family: "Space Mono", system-ui;
     font-weight: 400;
     font-style: normal;
@@ -33,7 +33,7 @@ html {
   }
 
   .mycard {
-    background-color: #1a1b20;
+    background-color: #ffffff;
     width: 100%;
     max-width: 302px;
     height: auto;
@@ -71,9 +71,12 @@ html {
     outline: none;
     position: relative;
     z-index: 1;
-    border-radius: 5px;
-    background: linear-gradient(to right, #00FFA3, #DC1FFF);
+    border-radius: 0px;
+    background: linear-gradient(to right, #000000, #000000);
     cursor: pointer;
+    font-family: "Space Mono", system-ui;
+    font-weight: 400;
+    font-style: normal;
   }
   .btnx::before {
     content: "";
@@ -82,7 +85,7 @@ html {
     right: 1px;
     top: 1px;
     bottom: 1px;
-    border-radius: 4px;
+    border-radius: 0px;
     background-color: white;
     z-index: -1;
     transition: 200ms
@@ -90,13 +93,13 @@ html {
   .btnx::after {
     content: attr(data);
     font-size: 16px;
-    background: linear-gradient(to left, #00FFA3, #DC1FFF);
+    background: linear-gradient(to left, #000000, #000000);
     -webkit-background-clip: text;
     color: transparent;
     transition: 200ms
   }
   .btnx:hover::before {
-    opacity: 50%;
+    opacity: 0%;
     top: 0px;
     right: 0px;
     bottom: 0px;
@@ -128,35 +131,18 @@ html {
     font-weight: 700;
     font-style: italic;
   }
+
+  .ttfont {
+    font-size: 20px;
+    text-align: left;
+    margin:20px;
+  }
   
-
-
-
-   
-
-@keyframes float {
-  0% {
-    box-shadow: 0 5px 5px 0px rgba(0, 0, 0, 0.6);
-    transform: translatey(0px);
-  }
-  50% {
-    box-shadow: 0 1px 1px 0px rgba(0, 0, 0, 0.2);
-    transform: translatey(-10px);
-  }
-  100% {
-    box-shadow: 0 5px 5px 0px rgba(0, 0, 0, 0.6);
-    transform: translatey(0px);
-  }
-}
-
  
 
 .avatar {
-  width: 128px;
+  width: 200px;
   overflow: hidden;
- 
-
-  animation: float 8s ease-in-out infinite;
 }
 
 img {
