@@ -10,17 +10,26 @@ html {
   }
   .table td  {
     color:#fff;
-    font-family: 'Nunito Sans';font-size: 18px;
+    font-family: "Space Mono", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
   }
 
   .table thead th  {
     color:#fff;
-    font-family: 'Nunito Sans';font-size: 18px;
+    font-family: "Space Mono", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
   }
 
   .titletwo  {
     color:#fff;
-    font-family: 'Nunito Sans';font-size: 23px;
+    font-family: "Space Mono", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 23px;
   }
 
   .mycard {
@@ -96,7 +105,30 @@ html {
   .btnx:hover::after{
     color: white;
   }
-
+  .space-mono-regular {
+    font-family: "Space Mono", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .space-mono-bold {
+    font-family: "Space Mono", system-ui;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .space-mono-regular-italic {
+    font-family: "Space Mono", system-ui;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .space-mono-bold-italic {
+    font-family: "Space Mono", system-ui;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
 
 
 
