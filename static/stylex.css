@@ -34,41 +34,25 @@ html {
 
   .mycard {
     background-color: #F7F7F7;
-    width: 100%;
-  
     height: auto;
     border: 1px solid #e5e7eb;
     border-radius: 0px;
- 
 }
 
-.card-deck {
- 
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-
-
-}
-
-.card {
-    display: inline-block;
-    width: 30%; /* Kartların genişliği */
-    margin-right: 15px;
-    margin-bottom: 15px;
-}
-
-/* Center the last card when it's the only one on the line */
-.card-deck::after {
-    content: '';
-    display: inline-block;
-    width: 100%;
+.badge {
+  font-size: 1rem; /* Adjust the font size as needed */
+  display: inline-block; /* Keeps the width based on content */
+  padding: 0.5rem 1rem; /* Optional: Add padding for better spacing */
+  word-break: break-word; /* Break long words */
+  white-space: normal; /* Allow text to wrap */
+  max-width: 120px;
+  margin-top: 11px;
+  margin-left: 15px;
+  text-align: center;
 }
 
 
-  .badge-h6 {
-    font-size: 1rem; /* Adjust the font size as needed */
-  }
+
 
   .btnx {
     padding: 10px 20px;
@@ -155,20 +139,19 @@ img {
   height: auto;
 }
 
-.badgex {
-  text-align:left;
-  margin-top : 11px;
-  margin-left:15px;
-  float:left;
-}
+ .ethname {
+  padding-right: 10px;
+  font-size:18px;
+
+ }
 
 .minic {
   width: 25px;
-  float: left;;
+  float: left;
   margin: 0px 4px 0px 15px;
 }
 
 .profile-pics {
   width:25px;
-  margin-top:-10px;
+  margin-top:0px;
 }
