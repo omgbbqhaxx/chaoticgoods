@@ -149,3 +149,16 @@ img {
   width: 100%;
   height: auto;
 }
+
+.badgex {
+  text-align:left;
+  margin-top : 11px;
+  margin-left:15px;
+  float:left;
+}
+
+.minic {
+  width: 25px;
+  float: left;;
+  margin: 0px 4px 0px 15px;
+}
