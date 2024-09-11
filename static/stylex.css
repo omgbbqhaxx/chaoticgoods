@@ -33,13 +33,13 @@ html {
   }
 
   .mycard {
-    background-color: #ffffff;
+    background-color: #F7F7F7;
     width: 100%;
     max-width: 302px;
     height: auto;
-    border: 1px solid #6966FB;
-    border-radius: 15px;
-    box-shadow: 0 0 4px #6966FB;
+    border: 1px solid #e5e7eb;
+    border-radius: 0px;
+ 
 }
 
 .card-deck {
